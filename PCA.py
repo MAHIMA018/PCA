@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
 
-os.chdir(r'C:\Users\MAHIMA\Downloads\machine_learning_tut\P14-Part9-Dimensionality-Reduction\Section 38 - Principal Component Analysis (PCA)\Python')
+os.chdir(r'give path to the directory')
 dataset = pd.read_csv('Wine.csv')
 
 X = dataset.iloc[:,0:13].values
